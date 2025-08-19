@@ -1,4 +1,6 @@
+# Ngôn ngữ mặc định là tiếng Anh
 defaultContentLanguage = "en"
+# Không đặt ngôn ngữ mặc định vào thư mục con (vd: /en/)
 defaultContentLanguageInSubdir = false
 
 # Change the default theme to be use when building the site with Hugo
@@ -25,6 +27,7 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Deploy Hugo Website with AWS CI/CD Tools"
 weight = 1
 languageName = "English"
+# ĐÃ XÓA DÒNG contentDir = "content/en"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -36,6 +39,7 @@ weight = 20
 title = "Triển khai Hugo Website với bộ công cụ CICD của AWS"
 weight = 2
 languageName = "Tiếng Việt"
+# ĐÃ XÓA DÒNG contentDir = "content/vi"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
